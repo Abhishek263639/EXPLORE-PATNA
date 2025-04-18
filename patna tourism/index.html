@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Explore Patna</title>
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg navbar-dark bg-gradient sticky-top shadow-sm">
+    <div class="container-fluid">
+      <!-- Logo and Brand Name -->
+      <a class="navbar-brand d-flex align-items-center" href="#home">
+        <img src="images/logo_prev_ui.png" alt="Explore Patna" class="logo-img mr-2" style="height: 40px;">
+        <span class="font-weight-bold">Explore Patna</span>
+      </a>
+      
+      <!-- Mobile Toggle Button -->
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      
+      <!-- Navbar Links -->
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="nav nav-pills ml-auto" id="nav-tab" role="tablist">
+          <li class="nav-item">
+            <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab">
+              <i class="fas fa-home mr-1"></i> Home
+            </a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+              <i class="fas fa-umbrella-beach mr-1"></i> Explore
+            </a>
+            <div class="dropdown-menu">
+              <a class="dropdown-item" id="spiritual-tab" data-toggle="tab" href="#spiritual" role="tab">
+                <i class="fas fa-place-of-worship mr-1"></i> Spiritual
+              </a>
+              <a class="dropdown-item" id="historical-tab" data-toggle="tab" href="#historical" role="tab">
+                <i class="fas fa-landmark mr-1"></i> Historical
+              </a>
+              <a class="dropdown-item" id="recreation-tab" data-toggle="tab" href="#recreation" role="tab">
+                <i class="fas fa-tree mr-1"></i> Recreation
+              </a>
+              <a class="dropdown-item" id="shopping-tab" data-toggle="tab" href="#shopping" role="tab">
+                <i class="fas fa-shopping-bag mr-1"></i> Shopping
+              </a>
+            </div>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="foods-tab" data-toggle="tab" href="#foods" role="tab">
+              <i class="fas fa-utensils mr-1"></i> Foods
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="cultural-tab" data-toggle="tab" href="#cultural" role="tab">
+              <i class="fas fa-theater-masks mr-1"></i> Culture
+            </a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab">
+              <i class="fas fa-envelope mr-1"></i> Contact
+            </a>
+          </li>
+        </ul>
+  </nav>
+  <div class="tab-content" id="nav-tabContent">
+    <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+      <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+        <!-- 1. Hero Section with Logo and Background Image -->
+        <section class="hero-section" style="background: linear-gradient(rgba(0,0,0,0.3), rgba(0,0,0,0.5)), url('.images/nit') center/cover no-repeat;">
+          <div class="container">
+            <div class="hero-content">
+              <!-- Explore Patna Logo -->
+              <div class="explore-logo">
+                <img src="images/logo_prev_ui.png" alt="Explore Patna" class="logo-img">
+              </div>
+              
+              <h1 class="hero-title">Explore <span>Patna</span></h1>
+              <p class="hero-subtitle">Where 2,500 years of history meet vibrant modernity</p>
+              
+              <!-- Tab Navigation Links -->
+              <div class="tab-navigation">
+                <a href="#spiritual" class="tab-link" data-toggle="tab">
+                  <i class="fas fa-place-of-worship"></i> Spiritual
+                </a>
+                <a href="#historical" class="tab-link" data-toggle="tab">
+                  <i class="fas fa-landmark"></i> Historical
+                </a>
+                <a href="#foods" class="tab-link" data-toggle="tab">
+                  <i class="fas fa-utensils"></i> Foods
+                </a>
+                <a href="#cultural" class="tab-link" data-toggle="tab">
+                  <i class="fas fa-theater-masks"></i> Cultural
+                </a>
+              </div>
+            </div>
+          </div>
+          
+          <div class="scroll-indicator">
+            <i class="fas fa-chevron-down bounce"></i>
+          </div>
+        </section>
+      
+        <!-- 2. Weather Forecast Section -->
+        <section class="weather-section py-5">
+          <div class="container">
+            <h2 class="text-center mb-5">Patna Weather Forecast</h2>
+            <div class="weather-container">
+              <div class="current-weather">
+                <div class="weather-main">
+                  <i class="fas fa-sun"></i>
+                  <div class="temp">32°C</div>
+                  <div class="description">Sunny</div>
+                </div>
+                <div class="weather-details">
+                  <div><i class="fas fa-wind"></i> 8 km/h</div>
+                  <div><i class="fas fa-tint"></i> 45%</div>
+                  <div><i class="fas fa-eye"></i> 10 km</div>
+                </div>
+              </div>
+              <div class="weather-forecast">
+                <div class="forecast-day">
+                  <div>Mon</div>
+                  <i class="fas fa-cloud-sun"></i>
+                  <div>34° / 26°</div>
+                </div>
+                <div class="forecast-day">
+                  <div>Tue</div>
+                  <i class="fas fa-cloud"></i>
+                  <div>33° / 25°</div>
+                </div>
+                <div class="forecast-day">
+                  <div>Wed</div>
+                  <i class="fas fa-cloud-rain"></i>
+                  <div>31° / 24°</div>
+                </div>
+                <div class="forecast-day">
+                  <div>Thu</div>
+                  <i class="fas fa-sun"></i>
+                  <div>35° / 27°</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      
+        <!-- 3. User Reviews Section -->
+        <section class="reviews-section py-5 bg-light">
+          <div class="container">
+            <h2 class="text-center mb-5">Visitor Experiences</h2>
+            <div class="reviews-container">
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="review-user">
+                    <h5>Sujay Chakravarti</h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star-half-alt"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review-content">
+                  "The Mahavir Mandir was incredibly peaceful. The morning aarti is a must-experience!"
+                </div>
+                <div class="review-date">Visited March 2025</div>
+              </div>
+              
+              <div class="review-card">
+                <div class="review-header">
+                  <div class="review-user">
+                    <h5>Nitish Kumar</h5>
+                    <div class="stars">
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                      <i class="fas fa-star"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="review-content">
+                  "The Litti Chokha at local stalls was the highlight of our trip. Authentic Bihari flavors!"
+                </div>
+                <div class="review-date">Visited January 2025</div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      </main>
+    </div>
+    <div class="tab-pane fade" id="spiritual" role="tabpanel" aria-labelledby="spiritual-tab">
+      <main class="container my-5">
+        <h2>Spiritual Places in Patna</h2>
+        <div class="row">
+     
+  <div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/mahavir mandir.jpeg" class="card-img-top" alt="Mahavir Mandir">
+    <div class="card-body">
+      <h5 class="card-title">Mahavir Mandir</h5>
+      <div class="short-text">
+        <p class="card-text">Hanuman Mandir, located near Patna Junction, is one of the most revered temples dedicated to Lord Hanuman...</p>
+      </div>
+      <div class="full-text">
+        <p>Hanuman Mandir, located near Patna Junction, is one of the most revered temples dedicated to Lord Hanuman. Devotees visit daily to seek blessings, 
+          believing in the deity's power to remove obstacles. The temple is especially crowded on Tuesdays and Saturdays.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Famous for its religious significance</li>
+          <li>Devotees offer prayers, sweets, and vermillion</li>
+          <li>Spiritual aura attracts visitors year-round</li>
+        </ul>
+        <p><strong>Best Time to Visit:</strong> Early morning or evening</p>
+        <p><strong>Location:</strong> Near Patna Junction</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Patan Devi Mandir -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/image copy.png" class="card-img-top" alt="Patan Devi Mandir">
+    <div class="card-body">
+      <h5 class="card-title">Patan Devi Mandir</h5>
+      <div class="short-text">
+        <p class="card-text">Patan Devi, located in Patna, is one of the most popular temples dedicated to Goddess Durga...</p>
+      </div>
+      <div class="full-text">
+        <p>Patan Devi, located in Patna, is one of the most popular temples dedicated to Goddess Durga. This famous temple is a symbol of faith and devotion,
+           where devotees come with their wishes, believing the goddess fulfills them.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Considered a Shakti Peetha</li>
+          <li>Right thigh of Goddess Sati is said to have fallen here</li>
+          <li>Special rituals during Navratri</li>
+        </ul>
+        <p><strong>Best Time to Visit:</strong> During Navratri festival</p>
+        <p><strong>Location:</strong> Patna City area</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Takht Shri Harimandir Ji -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/harmandir.jpeg" class="card-img-top" alt="Takht Shri Harimandir Ji">
+    <div class="card-body">
+      <h5 class="card-title">Takht Shri Harimandir Ji</h5>
+      <div class="short-text">
+        <p class="card-text">TAKHAT SRI HARIMANDIR JI PATNA SAHIB is considered the second holiest Takhat...</p>
+      </div>
+      <div class="full-text">
+        <p>TAKHAT SRI HARIMANDIR JI PATNA SAHIB is considered the second holiest Takhat. Revered as the birthplace of Sri Guru Gobind Singh Ji Maharaj, 
+          it is one of the five seats of temporal authority of the Sikhs.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Consecrated by three Sikh Gurus</li>
+          <li>Important pilgrimage site for Sikhs</li>
+          <li>Beautiful golden architecture</li>
+        </ul>
+        <p><strong>Best Time to Visit:</strong> Morning hours</p>
+        <p><strong>Location:</strong> Patna City</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Khajpura Shiv Mandir -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/khajpuras shiv mandir.jpg" class="card-img-top" alt="Khajpura Shiv Mandir">
+    <div class="card-body">
+      <h5 class="card-title">Khajpura Shiv Mandir</h5>
+      <div class="short-text">
+        <p class="card-text">Khajpura Shiv Mandir, located in Patna, is a well-known temple dedicated to Lord Shiva...</p>
+      </div>
+      <div class="full-text">
+        <p>Khajpura Shiv Mandir, located in Patna, is a well-known temple dedicated to Lord Shiva. This sacred place is a center of faith and devotion, 
+          attracting devotees who come to offer prayers and seek blessings.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Special rituals during Mahashivratri</li>
+          <li>Devotees offer milk, bilva leaves, and water to the Shivling</li>
+          <li>Believed to bring peace and prosperity</li>
+        </ul>
+        <p><strong>Best Time to Visit:</strong> Mahashivratri festival</p>
+        <p><strong>Location:</strong> Khajpura area</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- ISKCON Temple -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/iskon temple.jpg" class="card-img-top" alt="ISKCON Temple">
+    <div class="card-body">
+      <h5 class="card-title">ISKCON Temple</h5>
+      <div class="short-text">
+        <p class="card-text">ISKCON Temple, located in Patna, is one of the most popular temples dedicated to Lord Krishna...</p>
+      </div>
+      <div class="full-text">
+        <p>ISKCON Temple, located in Patna, is one of the most popular temples dedicated to Lord Krishna. This famous temple is a symbol of devotion and spirituality,
+           where devotees come with their wishes, believing that chanting the Hare Krishna mantra brings peace and blessings.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Daily kirtans and bhajans</li>
+          <li>Peaceful spiritual atmosphere</li>
+          <li>Vegetarian food offerings</li>
+        </ul>
+        <p><strong>Best Time to Visit:</strong> Evening aarti</p>
+        <p><strong>Location:</strong> Boring Road area</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Maa Siddheshwari Kali Mandir -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/Maa Siddheshwari Kali Mandir.jpg" class="card-img-top" alt="Maa Siddheshwari Kali Mandir">
+    <div class="card-body">
+      <h5 class="card-title">Maa Siddheshwari Kali Mandir</h5>
+      <div class="short-text">
+        <p class="card-text">Maa Siddheshwari Kali Mandir, located in Patna, is one of the most popular temples dedicated to Goddess Kali...</p>
+      </div>
+      <div class="full-text">
+        <p>Maa Siddheshwari Kali Mandir, located in Patna, is one of the most popular temples dedicated to Goddess Kali. This famous temple is a symbol of faith and devotion, 
+          where devotees come with their wishes, believing the goddess fulfills them.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Special prayers during Kali Puja</li>
+          <li>Known for spiritual significance</li>
+          <li>Powerful deity worshipped here</li>
+        </ul>
+        <p><strong>Best Time to Visit:</strong> Kali Puja festival</p>
+        <p><strong>Location:</strong> Patna City</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/jama masjid.jpg" class="card-img-top" alt="Jama Masjid">
+    <div class="card-body">
+      <h5 class="card-title">Jama Masjid</h5>
+      <div class="short-text">
+        <p class="card-text">Jama Masjid, located in Patna, is one of the most popular mosques dedicated to Islamic worship...</p>
+      </div>
+      <div class="full-text">
+        <p>Jama Masjid, located in Patna, is one of the most popular mosques dedicated to Islamic worship. This famous mosque is a symbol of faith and devotion,
+           where devotees come to offer namaz, believing that their prayers bring peace and blessings.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Historical and architectural significance</li>
+          <li>Large gatherings during Eid</li>
+          <li>Beautiful Islamic architecture</li>
+        </ul>
+        <p><strong>Best Time to Visit:</strong> During prayer times or Eid</p>
+        <p><strong>Location:</strong> Patna City</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/panchmukhihanuman mandir.jpeg" class="card-img-top" alt="Panch Mookhi Hanuman Mandir">
+    <div class="card-body">
+      <h5 class="card-title">Panch Mukhi Hanuman Mandir</h5>
+      <div class="short-text">
+        <p class="card-text">Panch Mukhi Hanuman Mandir, located in Patna, is one of the most popular temples dedicated to Lord Hanuman...</p>
+      </div>
+      <div class="full-text">
+        <p>Panch Mukhi Hanuman Mandir, located in Patna, is one of the most popular temples dedicated to Lord Hanuman. This famous temple is a symbol of devotion and spirituality,
+          where devotees come with their wishes, believing that the five-faced form of Hanuman fulfills them.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Special rituals on Tuesdays and Saturdays</li>
+          <li>Devotees chant Hanuman Chalisa</li>
+          <li>Known for its divine aura</li>
+        </ul>
+        <p><strong>Best Time to Visit:</strong> Tuesday or Saturday mornings</p>
+        <p><strong>Location:</strong> Near Patna Junction</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+</main>
+</div>
+    
+      
+
+      <div class="tab-pane fade" id="historical" role="tabpanel" aria-labelledby="historical-tab">
+        <main class="container my-5">
+          <h2>Historical Places in Patna</h2>
+          <div class="row">
+           
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/golghar.jpeg" class="card-img-top" alt="Golghar">
+    <div class="card-body">
+      <h5 class="card-title">Golghar</h5>
+      <div class="short-text">
+        <p class="card-text">Iconic beehive-shaped granary built in 1786 after the great famine, offering panoramic views of Patna...</p>
+      </div>
+      <div class="full-text">
+        <p>Built by Captain John Garstin for the British Army, this 29-meter tall structure was designed to store grains for famine relief but was never filled to capacity.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>125-step spiral staircase to the top</li>
+          <li>Walls 3.6m thick at the base</li>
+          <li>No pillars support the structure</li>
+          <li>Unique ventilation system</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> ₹15 for adults</li>
+          <li><strong>Timings:</strong> 10AM-5PM (Closed Mondays)</li>
+          <li><strong>Best Time:</strong> Early morning for sunrise views</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/agam kuan 1.jpeg" class="card-img-top" alt="Agam Kuan">
+    <div class="card-body">
+      <h5 class="card-title">Agam Kuan</h5>
+      <div class="short-text">
+        <p class="card-text">Ancient "Unfathomable Well" believed to be part of Emperor Ashoka's torture chambers...</p>
+      </div>
+      <div class="full-text">
+        <p>This 105-foot deep well is said to be part of Ashoka's torture chambers before he embraced Buddhism, later becoming a sacred site.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Mentioned in Chinese traveler Hiuen Tsang's accounts</li>
+          <li>Eight arched windows at ground level</li>
+          <li>Adjacent shrines from different periods</li>
+          <li>Local legends about mystical properties</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> Free</li>
+          <li><strong>Timings:</strong> 6AM-6PM daily</li>
+          <li><strong>Location:</strong> Near Gulzarbagh</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/patna museum.jpg" class="card-img-top" alt="Patna Museum">
+    <div class="card-body">
+      <h5 class="card-title">Patna Museum</h5>
+      <div class="short-text">
+        <p class="card-text">Established in 1917, houses artifacts from ancient Pataliputra including the famous Didarganj Yakshi...</p>
+      </div>
+      <div class="full-text">
+        <p>Known locally as 'Jadu Ghar', the museum contains over 50,000 artifacts dating back to 3rd century BCE from the Mauryan and Gupta periods.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Didarganj Yakshi (3rd century BCE sculpture)</li>
+          <li>Ashes of Buddha in a casket</li>
+          <li>Rare coins and paintings collection</li>
+          <li>Traditional handicrafts display</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> ₹100 (foreigners), ₹15 (Indians)</li>
+          <li><strong>Timings:</strong> 10:30AM-4:30PM (Closed Mondays)</li>
+          <li><strong>Location:</strong> Buddha Marg</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/gandhi maidan.png" class="card-img-top" alt="Gandhi Maidan">
+    <div class="card-body">
+      <h5 class="card-title">Gandhi Maidan</h5>
+      <div class="short-text">
+        <p class="card-text">Historic 60-acre ground where Mahatma Gandhi held rallies during India's freedom struggle...</p>
+      </div>
+      <div class="full-text">
+        <p>This historic ground has witnessed many important political events and continues to host major gatherings and festivals.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Tallest Gandhi statue in India (70 feet)</li>
+          <li>Hosts Republic Day parade annually</li>
+          <li>Main venue for Chhath Puja celebrations</li>
+          <li>Central location in Patna</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> Free</li>
+          <li><strong>Best Time:</strong> During festivals</li>
+          <li><strong>Location:</strong> Heart of Patna</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/bihar museum.jpeg" class="card-img-top" alt="Bihar Museum">
+    <div class="card-body">
+      <h5 class="card-title">Bihar Museum</h5>
+      <div class="short-text">
+        <p class="card-text">State-of-the-art museum showcasing Bihar's heritage through interactive displays and galleries...</p>
+      </div>
+      <div class="full-text">
+        <p>Opened in 2017, this modern museum spans 13.5 acres and presents Bihar's 2000+ years of history through engaging exhibits.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Didarganj Yakshi (transferred from Patna Museum)</li>
+          <li>Prehistoric tools and fossils</li>
+          <li>Children's discovery room</li>
+          <li>Digital interactive displays</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> ₹100 (adults), ₹50 (children)</li>
+          <li><strong>Timings:</strong> 10:30AM-5PM (Closed Mondays)</li>
+          <li><strong>Location:</strong> Jawaharlal Nehru Marg</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/sabhyata.jpg" class="card-img-top" alt="Sabhyata Dwar">
+    <div class="card-body">
+      <h5 class="card-title">Sabhyata Dwar</h5>
+      <div class="short-text">
+        <p class="card-text">32-meter tall sandstone monument celebrating Bihar's cultural heritage, inaugurated in 2018...</p>
+      </div>
+      <div class="full-text">
+        <p>This gateway symbolizes Bihar's golden age during Mauryan and Gupta periods, built with sandstone from Chunar.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Inspired by ancient Indian architecture</li>
+          <li>Inscriptions of Bihar's historical achievements</li>
+          <li>Beautiful night lighting effects</li>
+          <li>Gateway to Patna's riverfront</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> Free</li>
+          <li><strong>Best Time:</strong> Evening for light show</li>
+          <li><strong>Location:</strong> Ganga Riverfront</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/kargil chowk.png" class="card-img-top" alt="Kargil Chowk">
+    <div class="card-body">
+      <h5 class="card-title">Kargil Chowk</h5>
+      <div class="short-text">
+        <p class="card-text">War memorial dedicated to soldiers who sacrificed their lives in the 1999 Kargil War...</p>
+      </div>
+      <div class="full-text">
+        <p>Established in 2000 near Gandhi Maidan, this memorial stands as a symbol of patriotism and honors the Kargil War heroes.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Plagues with names of fallen soldiers</li>
+          <li>Patriotic architecture and design</li>
+          <li>Site for national day commemorations</li>
+          <li>Emotional and inspiring landmark</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> Free</li>
+          <li><strong>Best Time:</strong> Republic Day/Independence Day</li>
+          <li><strong>Location:</strong> Near Gandhi Maidan</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/maner sarif.jpeg" class="card-img-top" alt="Maner Sharif">
+    <div class="card-body">
+      <h5 class="card-title">Maner Sharif</h5>
+      <div class="short-text">
+        <p class="card-text">Ancient Sufi shrine complex 30km from Patna with stunning Mughal architecture...</p>
+      </div>
+      <div class="full-text">
+        <p>This important Sufi pilgrimage site contains the tombs of Makhdoom Yahya Maneri and Makhdoom Shah Daulat, built in Mughal architectural style.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Beautiful Mughal-era mausoleums</li>
+          <li>Center of Islamic learning historically</li>
+          <li>Famous for "Maner Ka Ladoo" sweets</li>
+          <li>Peaceful spiritual atmosphere</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> Free</li>
+          <li><strong>Timings:</strong> 6AM-8PM daily</li>
+          <li><strong>Distance:</strong> 30km west of Patna</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+        </main>
+      </div>
+      
+
+    <div class="tab-pane fade" id="foods" role="tabpanel" aria-labelledby="foods-tab">
+      <main class="container my-5">
+        <h2>Famous Foods in Patna</h2>
+        <div class="row">
+         
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/Litti-Chokha.webp" class="card-img-top" alt="Litti Chokha">
+    <div class="card-body">
+      <h5 class="card-title">Litti Chokha</h5>
+      <div class="short-text">
+        <p class="card-text">Traditional Bihari dish of wheat balls stuffed with sattu, served with mashed spiced vegetables...</p>
+      </div>
+      <div class="full-text">
+        <p>The signature dish of Bihar, Litti Chokha was originally the staple food of warriors and is now popular across India.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Made with whole wheat dough and sattu (roasted gram flour) filling</li>
+          <li>Traditionally baked over cow dung cakes</li>
+          <li>Served with baingan (eggplant) or alu (potato) chokha</li>
+          <li>Often accompanied by ghee, pickle and raw onions</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Pandit Ji Litti Chokha, Boring Road; Anand Litti Stall, Patna City</li>
+          <li><strong>Price Range:</strong> ₹50-100 per plate</li>
+          <li><strong>Best Time:</strong> Available all day, but best for lunch</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/khaja.webp" class="card-img-top" alt="Khaja">
+    <div class="card-body">
+      <h5 class="card-title">Khaja</h5>
+      <div class="short-text">
+        <p class="card-text">Flaky, layered sweet pastry made from wheat flour, sugar and ghee, a specialty of Bihar...</p>
+      </div>
+      <div class="full-text">
+        <p>This crispy dessert has been part of Bihari cuisine for centuries and is often associated with religious offerings.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Multiple thin layers of dough fried in ghee</li>
+          <li>Soaked in sugar syrup after frying</li>
+          <li>Comes in different varieties - soft, hard and liquid-filled</li>
+          <li>Specialty of Silao near Nalanda</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Harilal Sweet Shop, Patna City; Ramana Sweets, Boring Road</li>
+          <li><strong>Price Range:</strong> ₹200-500 per kg</li>
+          <li><strong>Best Time:</strong> Available year-round</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/chana ghugni.avif" class="card-img-top" alt="Chana Ghugni">
+    <div class="card-body">
+      <h5 class="card-title">Chana Ghugni</h5>
+      <div class="short-text">
+        <p class="card-text">Spicy chickpea curry served as a popular street food snack, especially during winters...</p>
+      </div>
+      <div class="full-text">
+        <p>A protein-packed snack that's both delicious and nutritious, often eaten with puffed rice or bread.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Made with black chickpeas or yellow peas</li>
+          <li>Cooked with onions, garlic and special spices</li>
+          <li>Garnished with chopped onions, coriander and lemon</li>
+          <li>Often served with muri (puffed rice) or bread</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Street vendors near Gandhi Maidan; Maurya Lok Complex</li>
+          <li><strong>Price Range:</strong> ₹20-50 per plate</li>
+          <li><strong>Best Time:</strong> Evening snack (4-7 PM)</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/malpua.jpeg" class="card-img-top" alt="Malpua">
+    <div class="card-body">
+      <h5 class="card-title">Malpua</h5>
+      <div class="short-text">
+        <p class="card-text">Sweet pancake dessert soaked in sugar syrup, often served with rabri during festivals...</p>
+      </div>
+      <div class="full-text">
+        <p>A traditional sweet that's especially popular during Holi and other festivals in Bihar.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Made with flour, milk, bananas and fennel seeds</li>
+          <li>Deep fried and then dipped in sugar syrup</li>
+          <li>Often served with thickened milk (rabri)</li>
+          <li>Variations include coconut or semolina malpua</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Hari Om Sweets, Fraser Road; Kankarbagh Sweet House</li>
+          <li><strong>Price Range:</strong> ₹30-80 per piece</li>
+          <li><strong>Best Time:</strong> Winter months and festivals</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Thekua -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/thekua.jpeg" class="card-img-top" alt="Thekua">
+    <div class="card-body">
+      <h5 class="card-title">Thekua</h5>
+      <div class="short-text">
+        <p class="card-text">Traditional cookie-like snack made during Chhath Puja from wheat flour, jaggery and coconut...</p>
+      </div>
+      <div class="full-text">
+        <p>A sacred offering during Chhath Puja that has become popular as a tea-time snack throughout the year.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Made with whole wheat flour, jaggery and ghee</li>
+          <li>Often flavored with cardamom or fennel</li>
+          <li>Pressed into decorative molds before frying</li>
+          <li>Has good shelf life of 2-3 weeks</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Local sweet shops during Chhath; homemade versions are best</li>
+          <li><strong>Price Range:</strong> ₹200-400 per kg</li>
+          <li><strong>Best Time:</strong> Chhath Puja season (Oct-Nov)</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Buniya Sev -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/booniya sev.webp" class="card-img-top" alt="Buniya Sev">
+    <div class="card-body">
+      <h5 class="card-title">Buniya Sev</h5>
+      <div class="short-text">
+        <p class="card-text">Crunchy gram flour snack, a Patna specialty often enjoyed with tea or as a quick bite...</p>
+      </div>
+      <div class="full-text">
+        <p>This savory snack is unique to Patna and different from regular sev found elsewhere in India.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Made from besan (gram flour) dough</li>
+          <li>Pressed through a sieve and deep-fried</li>
+          <li>Seasoned with spices and salt</li>
+          <li>Light, crispy texture with mild spices</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Local snack shops in Patna City; Buniya stalls near Dak Bungalow</li>
+          <li><strong>Price Range:</strong> ₹100-200 per kg</li>
+          <li><strong>Best Time:</strong> Available year-round</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Dal Pitha -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/dalpitha-enjoy.webp" class="card-img-top" alt="Dal Pitha">
+    <div class="card-body">
+      <h5 class="card-title">Dal Pitha</h5>
+      <div class="short-text">
+        <p class="card-text">Bihari version of dumplings, made with rice flour and stuffed with spiced lentil paste...</p>
+      </div>
+      <div class="full-text">
+        <p>Often called Bihari momos, these steamed or fried dumplings are a traditional comfort food.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Outer covering made from rice flour</li>
+          <li>Stuffed with spiced chana dal paste</li>
+          <li>Can be steamed or pan-fried</li>
+          <li>Often served with chutney or yogurt</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Traditional Bihari thali restaurants; homemade versions</li>
+          <li><strong>Price Range:</strong> ₹50-100 per plate</li>
+          <li><strong>Best Time:</strong> Winter months</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Tilkut -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/tilkut.jpeg" class="card-img-top" alt="Tilkut">
+    <div class="card-body">
+      <h5 class="card-title">Tilkut</h5>
+      <div class="short-text">
+        <p class="card-text">Sesame seed and jaggery sweet, especially popular during Makar Sankranti festival...</p>
+      </div>
+      <div class="full-text">
+        <p>This nutritious sweet is a winter specialty and is believed to provide warmth during cold months.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Made with sesame seeds and jaggery</li>
+          <li>Pounded to create a crunchy texture</li>
+          <li>Often shaped into round discs or bars</li>
+          <li>Rich in iron and calcium</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Gaya is famous for Tilkut; sweet shops in Patna during winter</li>
+          <li><strong>Price Range:</strong> ₹300-600 per kg</li>
+          <li><strong>Best Time:</strong> December-January</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Anarsa -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/anarsha.jpeg" class="card-img-top" alt="Anarsa">
+    <div class="card-body">
+      <h5 class="card-title">Anarsa</h5>
+      <div class="short-text">
+        <p class="card-text">Traditional sweet made from rice flour and jaggery, with a crisp exterior and soft interior...</p>
+      </div>
+      <div class="full-text">
+        <p>A festival sweet that requires days of preparation, known for its unique texture and flavor.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Made with soaked rice, jaggery and poppy seeds</li>
+          <li>Requires 3-4 days of fermentation</li>
+          <li>Crispy on outside, soft and porous inside</li>
+          <li>Traditional Diwali sweet in Bihar</li>
+        </ul>
+        <p><strong>Where to Try:</strong></p>
+        <ul>
+          <li><strong>Best Places:</strong> Traditional sweet shops during festivals</li>
+          <li><strong>Price Range:</strong> ₹400-700 per kg</li>
+          <li><strong>Best Time:</strong> Diwali season</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+      </main>
+    </div>
+
+    <div class="tab-pane fade" id="cultural" role="tabpanel" aria-labelledby="cultural-tab">
+      <main class="container my-5">
+        <h2>Cultural Attractions in Patna</h2>
+        <div class="row">
+         <!-- Chhath Puja -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/chhath puja.jpeg" class="card-img-top" alt="Chhath Puja">
+    <div class="card-body">
+      <h5 class="card-title">Chhath Puja</h5>
+      <div class="short-text">
+        <p class="card-text">Ancient Hindu festival dedicated to the Sun God, celebrated with fasting and river rituals...</p>
+      </div>
+      <div class="full-text">
+        <p>Chhath Puja is Bihar's most important festival, celebrated with great devotion over four days in November.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Four days of rigorous rituals (Nahay Khay to Usha Arghya)</li>
+          <li>Devotees offer prayers to rising and setting sun</li>
+          <li>Holy dips in Ganges with offerings</li>
+          <li>Traditional folk songs and vibrant processions</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Best Places to Experience:</strong> Gandhi Ghat, Digha Ghat, Patna Marine Drive</li>
+          <li><strong>Best Time:</strong> 6 days after Diwali (Nov 7-10 in 2024)</li>
+          <li><strong>Duration:</strong> 4 days</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/diwali.jpg" class="card-img-top" alt="Diwali celebrations in Patna">
+    <div class="card-body">
+      <h5 class="card-title">Diwali</h5>
+      <div class="short-text">
+        <p class="card-text">The festival of lights transforms Patna into a glittering wonderland with lamps, fireworks, and sweets...</p>
+      </div>
+      <div class="full-text">
+        <p>Patna celebrates Diwali with grand illuminations, especially along the Ganga ghats and markets like Patna Market.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Gandhi Ghat illuminated with thousands of diyas</li>
+          <li>Firework displays over the Ganges</li>
+          <li>Special Lakshmi Puja in homes and businesses</li>
+          <li>Sweet shops offer seasonal specialties like Anarsa and Kheel</li>
+        </ul>
+        <p><strong>Best Places to Experience:</strong></p>
+        <ul>
+          <li>Gandhi Ghat (diyas floating on Ganges)</li>
+          <li>Patna Market (decorations shopping)</li>
+          <li>ISKCON Temple (special aarti)</li>
+        </ul>
+        <p><strong>When:</strong> October/November</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Ram Navami Card -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/ramnavmi.webp" class="card-img-top" alt="Ram Navami procession in Patna">
+    <div class="card-body">
+      <h5 class="card-title">Ram Navami</h5>
+      <div class="short-text">
+        <p class="card-text">Birthday celebrations of Lord Rama featuring grand processions and devotional music...</p>
+      </div>
+      <div class="full-text">
+        <p>Patna observes Ram Navami with week-long celebrations culminating in chariot processions.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Rath Yatra (chariot procession) from Patna City to Gandhi Maidan</li>
+          <li>24-hour Ramayana recitals</li>
+          <li>Traditional folk performances</li>
+          <li>Community feasts (Bhandara)</li>
+        </ul>
+        <p><strong>Best Places to Experience:</strong></p>
+        <ul>
+          <li>Ram Janki Temple (Patna City)</li>
+          <li>Gandhi Maidan (main procession)</li>
+          <li>Buddha Colony (cultural programs)</li>
+        </ul>
+        <p><strong>When:</strong> March/April (Chaitra month)</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Govardhan Puja Card -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/govardhan-puja.avif" class="card-img-top" alt="Govardhan Puja Annakut display">
+    <div class="card-body">
+      <h5 class="card-title">Govardhan Puja</h5>
+      <div class="short-text">
+        <p class="card-text">Celebration of Lord Krishna's miracle with mountain-shaped food offerings...</p>
+      </div>
+      <div class="full-text">
+        <p>Celebrated the day after Diwali, this festival features elaborate food mountains honoring Krishna's protection.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Annakut (56+ food items arranged as a mountain)</li>
+          <li>Cow worship (Gau Puja)</li>
+          <li>Community feasts at temples</li>
+          <li>Folk dramas depicting Krishna's life</li>
+        </ul>
+        <p><strong>Best Places to Experience:</strong></p>
+        <ul>
+          <li>ISKCON Patna (grandest Annakut display)</li>
+          <li>Patna Sahib Gurudwara (special langar)</li>
+          <li>Local neighborhoods with family celebrations</li>
+        </ul>
+        <p><strong>When:</strong> Day after Diwali</p>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+<!-- Makar Sankranti -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/makar sakranti.jpg" class="card-img-top" alt="Makar Sankranti">
+    <div class="card-body">
+      <h5 class="card-title">Makar Sankranti</h5>
+      <div class="short-text">
+        <p class="card-text">Harvest festival marking sun's transition into Capricorn, celebrated with kite flying and sweets...</p>
+      </div>
+      <div class="full-text">
+        <p>This festival in mid-January celebrates the end of winter and beginning of the harvest season.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Massive kite flying competitions</li>
+          <li>Holy dips in Ganges</li>
+          <li>Distribution of tilkut, chura and dahi</li>
+          <li>Traditional folk songs and dances</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>When:</strong> January 14-15 annually</li>
+          <li><strong>Best Places:</strong> Gandhi Ghat, banks of Ganges</li>
+          <li><strong>Entry Fee:</strong> Free</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Durga Puja -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/durga puja.jpg" class="card-img-top" alt="Durga Puja">
+    <div class="card-body">
+      <h5 class="card-title">Durga Puja</h5>
+      <div class="short-text">
+        <p class="card-text">Grand celebration of Goddess Durga's victory over evil, with elaborate pandals across the city...</p>
+      </div>
+      <div class="full-text">
+        <p>The Bengali community's biggest festival has become a major cultural event in Patna.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Artistically designed pandals (temporary shrines)</li>
+          <li>Cultural programs and competitions</li>
+          <li>Traditional dhak drum performances</li>
+          <li>Procession for idol immersion</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>When:</strong> September-October annually</li>
+          <li><strong>Best Pandals:</strong> SK Puri, Boring Road, Patna City</li>
+          <li><strong>Duration:</strong> 5 days</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>     
+      </main>
+    </div>
+
+    <div class="tab-pane fade" id="recreation" role="tabpanel" aria-labelledby="recreation-tab">
+      <main class="container my-5">
+        <h2>Recreation Spots in Patna</h2>
+        <div class="row">
+          <!-- Eco Park -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/eco-park-featured copy.jpg" class="card-img-top" alt="Eco Park">
+    <div class="card-body">
+      <h5 class="card-title">Eco Park</h5>
+      <div class="short-text">
+        <p class="card-text">Sprawling 400-acre green space with walking trails, boating, and children's play areas...</p>
+      </div>
+      <div class="full-text">
+        <p>Patna's largest urban park offering a refreshing escape with well-maintained gardens and recreational facilities.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Paddle boats and row boats on the lake</li>
+          <li>Open-air gym equipment</li>
+          <li>Musical fountain show in evenings</li>
+          <li>Dedicated children's play zone</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> ₹20 per person</li>
+          <li><strong>Timings:</strong> 6AM-9PM daily</li>
+          <li><strong>Best Time:</strong> Early morning or evening</li>
+          <li><strong>Location:</strong> J.P. Ganga Path</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Ganga Path -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/marine drive.jpg" class="card-img-top" alt="Ganga Path">
+    <div class="card-body">
+      <h5 class="card-title">Ganga Path</h5>
+      <div class="short-text">
+        <p class="card-text">Scenic 5km riverfront promenade along the Ganges, perfect for walking and cycling...</p>
+      </div>
+      <div class="full-text">
+        <p>Patna's Marine Drive offers breathtaking views of the Ganges with well-lit pathways and seating areas.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Beautiful sunset views over the river</li>
+          <li>Cycling track and jogging path</li>
+          <li>Food stalls serving local snacks</li>
+          <li>Regular cultural events</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> Free</li>
+          <li><strong>Timings:</strong> 24 hours (best 5-8AM & 4-8PM)</li>
+          <li><strong>Facilities:</strong> Bicycle rentals available</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Buddha Smriti Park -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/patnaa.jpg" class="card-img-top" alt="Buddha Smriti Park">
+    <div class="card-body">
+      <h5 class="card-title">Buddha Smriti Park</h5>
+      <div class="short-text">
+        <p class="card-text">Peaceful memorial park dedicated to Lord Buddha, featuring a grand stupa and museum...</p>
+      </div>
+      <div class="full-text">
+        <p>Inaugurated by the Dalai Lama in 2010, this park commemorates Buddha's connection with Patna.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Pataliputra Karuna Stupa (200ft tall)</li>
+          <li>Sacred Bodhi tree sapling</li>
+          <li>Meditation cells and prayer hall</li>
+          <li>Museum with Buddhist relics</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> ₹50 for adults</li>
+          <li><strong>Timings:</strong> 9AM-7PM daily</li>
+          <li><strong>Special:</strong> Guided meditation sessions</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Sanjay Gandhi Biological Park -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/zoo.webp" class="card-img-top" alt="Sanjay Gandhi Biological Park">
+    <div class="card-body">
+      <h5 class="card-title">Sanjay Gandhi Biological Park</h5>
+      <div class="short-text">
+        <p class="card-text">Patna's zoo and botanical garden spread over 150 acres with diverse flora and fauna...</p>
+      </div>
+      <div class="full-text">
+        <p>Established in 1969, this is one of the largest zoos in India with over 800 animals.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>White tiger and lion safari</li>
+          <li>Aquarium and reptile house</li>
+          <li>Butterfly park and orchid house</li>
+          <li>Toy train for children</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> ₹50 for adults, ₹20 for children</li>
+          <li><strong>Timings:</strong> 8AM-5PM (Closed Mondays)</li>
+          <li><strong>Best Time:</strong> October-March</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- NIT Ghat -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/nit ghat.jpg" class="card-img-top" alt="NIT Ghat">
+    <div class="card-body">
+      <h5 class="card-title">NIT Ghat</h5>
+      <div class="short-text">
+        <p class="card-text">Serene riverside area near NIT Patna, popular for morning walks and evening relaxation...</p>
+      </div>
+      <div class="full-text">
+        <p>This well-maintained ghat offers peaceful views of the Ganges away from the city crowds.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Clean and less crowded riverside</li>
+          <li>Yoga and meditation spot</li>
+          <li>Small food stalls serving tea/snacks</li>
+          <li>Boat rides available</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> Free</li>
+          <li><strong>Timings:</strong> Open 24 hours</li>
+          <li><strong>Best Time:</strong> Sunrise or sunset</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Patna Planetarium -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/planetarium-patna.jpeg" class="card-img-top" alt="Patna Planetarium">
+    <div class="card-body">
+      <h5 class="card-title">Patna Planetarium</h5>
+      <div class="short-text">
+        <p class="card-text">One of Asia's largest planetariums offering fascinating astronomy shows and exhibits...</p>
+      </div>
+      <div class="full-text">
+        <p>Built in 1993, this dome-shaped planetarium is a great educational and recreational spot.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>State-of-the-art projection system</li>
+          <li>Regular shows on astronomy</li>
+          <li>Science exhibition gallery</li>
+          <li>Telescope viewing sessions</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> ₹50 for adults, ₹25 for children</li>
+          <li><strong>Show Timings:</strong> 12:30PM, 2PM, 3:30PM, 5PM</li>
+          <li><strong>Closed:</strong> Mondays</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/golf club.jpg" class="card-img-top" alt="Patna Golf Club">
+    <div class="card-body">
+      <h5 class="card-title">Patna Golf Club</h5>
+      <div class="short-text">
+        <p class="card-text">18-hole golf course set along the banks of the Ganges, established during British era...</p>
+      </div>
+      <div class="full-text">
+        <p>Founded in 1916, this is one of the oldest golf courses in India with scenic river views.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>6,200 yard, par 72 course</li>
+          <li>Clubhouse with restaurant</li>
+          <li>Golf coaching available</li>
+          <li>Regular tournaments</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry:</strong> Members only (temporary passes available)</li>
+          <li><strong>Timings:</strong> 6AM-6PM daily</li>
+          <li><strong>Facilities:</strong> Equipment rentals available</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/water park.webp" class="card-img-top" alt="Water Park">
+    <div class="card-body">
+      <h5 class="card-title">Water Park</h5>
+      <div class="short-text">
+        <p class="card-text">Fun-filled aquatic park with thrilling water slides and pools for all age groups...</p>
+      </div>
+      <div class="full-text">
+        <p>Patna's premier water-based entertainment destination, especially popular in summers.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Wave pool and lazy river</li>
+          <li>High-speed water slides</li>
+          <li>Children's play area</li>
+          <li>Rain dance floor</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Entry Fee:</strong> ₹500-800 per person</li>
+          <li><strong>Timings:</strong> 10AM-6PM (April-September)</li>
+          <li><strong>Facilities:</strong> Lockers and food court available</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+      </main>
+    </div>
+    
+    
+    <div class="tab-pane fade" id="shopping" role="tabpanel" aria-labelledby="shopping-tab">
+      <main class="container my-5">
+          <h2>Shopping Places in Patna</h2>
+          <div class="row">
+  
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/city centre.webp" class="card-img-top" alt="City Centre Mall">
+    <div class="card-body">
+      <h5 class="card-title">City Centre Mall</h5>
+      <div class="short-text">
+        <p class="card-text">Patna's first modern shopping mall with international brands, multiplex, and food court...</p>
+      </div>
+      <div class="full-text">
+        <p>Spread across 4 floors, this mall offers a complete shopping and entertainment experience.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>100+ national and international brands</li>
+          <li>PVR Cinemas with 4 screens</li>
+          <li>Food court with 15+ eateries</li>
+          <li>Underground parking for 500 cars</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Popular Stores:</strong> Pantaloons, Westside, Lifestyle</li>
+          <li><strong>Timings:</strong> 10AM-10PM daily</li>
+          <li><strong>Location:</strong> Fraser Road</li>
+          <li><strong>Parking:</strong> ₹50 for 4 hours</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/p&m mall.webp" class="card-img-top" alt="P&M Mall">
+    <div class="card-body">
+      <h5 class="card-title">P&M Mall</h5>
+      <div class="short-text">
+        <p class="card-text">One of Patna's largest malls featuring premium brands and entertainment options...</p>
+      </div>
+      <div class="full-text">
+        <p>This 5-floor shopping complex is known for its mix of luxury and affordable brands.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Inox multiplex cinema</li>
+          <li>Bowling alley and gaming zone</li>
+          <li>Premium fashion outlets</li>
+          <li>Rooftop restaurants</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Popular Stores:</strong> Shoppers Stop, Marks & Spencer</li>
+          <li><strong>Timings:</strong> 10AM-10PM daily</li>
+          <li><strong>Location:</strong> Exhibition Road</li>
+          <li><strong>Special:</strong> Valet parking available</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/maurya lok.jpg" class="card-img-top" alt="Maurya Lok Complex">
+    <div class="card-body">
+      <h5 class="card-title">Maurya Lok Complex</h5>
+      <div class="short-text">
+        <p class="card-text">Popular shopping arcade with local boutiques, book stores, and eateries...</p>
+      </div>
+      <div class="full-text">
+        <p>Established in 1980s, this remains a favorite shopping destination for locals.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>100+ small shops and showrooms</li>
+          <li>Best for traditional handicrafts</li>
+          <li>Street food stalls</li>
+          <li>Budget shopping options</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Best For:</strong> Handicrafts, books, jewelry</li>
+          <li><strong>Timings:</strong> 10AM-9PM daily</li>
+          <li><strong>Location:</strong> Dak Bungalow Road</li>
+          <li><strong>Bargaining:</strong> Expected at most shops</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/khaitan.jpeg" class="card-img-top" alt="Khaitan Market">
+    <div class="card-body">
+      <h5 class="card-title">Khaitan Market</h5>
+      <div class="short-text">
+        <p class="card-text">Popular electronics and gadget market with competitive prices...</p>
+      </div>
+      <div class="full-text">
+        <p>The go-to place for electronics, mobile phones, and computer accessories in Patna.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Wide range of electronics stores</li>
+          <li>Authorized dealers for major brands</li>
+          <li>Repair and service centers</li>
+          <li>Best deals on bulk purchases</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Best For:</strong> Mobiles, laptops, cameras</li>
+          <li><strong>Timings:</strong> 10AM-8PM daily</li>
+          <li><strong>Location:</strong> Exhibition Road</li>
+          <li><strong>Tip:</strong> Compare prices at multiple shops</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+
+<!-- Patna Sahib Market -->
+<div class="col-md-4">
+  <div class="card mb-4">
+    <img src="images/patna sahib market.jpg" class="card-img-top" alt="Patna Sahib Market">
+    <div class="card-body">
+      <h5 class="card-title">Patna Sahib Market</h5>
+      <div class="short-text">
+        <p class="card-text">Traditional market near Takht Sri Patna Sahib with Sikh religious items...</p>
+      </div>
+      <div class="full-text">
+        <p>Specialized market catering to pilgrims visiting the sacred Sikh shrine.</p>
+        <p><strong>Key Features:</strong></p>
+        <ul>
+          <li>Sikh religious books and artifacts</li>
+          <li>Traditional Punjabi juttis (footwear)</li>
+          <li>Karah prasad ingredients</li>
+          <li>Phulkari dupattas and handicrafts</li>
+        </ul>
+        <p><strong>Visitor Information:</strong></p>
+        <ul>
+          <li><strong>Best For:</strong> Religious souvenirs</li>
+          <li><strong>Timings:</strong> 8AM-8PM daily</li>
+          <li><strong>Location:</strong> Near Takht Sri Patna Sahib</li>
+          <li><strong>Note:</strong> Closed during afternoon prayers</li>
+        </ul>
+      </div>
+      <button class="read-more-btn mt-auto">Read More</button>
+    </div>
+  </div>
+</div>
+      </main>
+  </div>
+  <div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">
+       <div class="my-4">
+           <h4>Location Map</h4>
+           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14334.754865185017!2d85.12008245!3d25.5940945!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39ed582d08aab58d%3A0x3806c10d1a5c5e72!2sPatna%2C%20Bihar!5e0!3m2!1sen!2sin!4v1617266375684!5m2!1sen!2sin" 
+               width="100%" height="300" style="border:0;" allowfullscreen="" loading="lazy">
+           </iframe>
+       </div>
+       <div class="container my-4 text-center">
+           <h2>Follow Us on Social Media</h2>
+           <div class="d-flex justify-content-center">
+               <a href="https://www.instagram.com/waah_patna/" target="_blank" class="mx-3">
+                   <img src="images/instagram.jpeg" alt="Instagram" width="40"> EXPLORE PATNA
+               </a>
+               <a href="https://www.facebook.com/mySmartPatna" target="_blank" class="mx-3">
+                   <img src="images/facebook.jpeg" alt="Facebook" width="40"> EXPLORE PATNA
+               </a>
+               <a href="https://x.com/TourismBiharGov" target="_blank" class="mx-3">
+                   <img src="images/x.png" alt="Twitter" width="40"> EXPLORE PATNA
+               </a>
+           </div>
+       </div>
+       <div class="container my-4">
+           <h4>Get in Touch</h4>
+           <form>
+               <div class="form-group">
+                   <label for="name">Name</label>
+                   <input type="text" class="form-control" id="name" placeholder="Enter your name" required>
+               </div>
+               <div class="form-group">
+                   <label for="email">Email</label>
+                   <input type="email" class="form-control" id="email" placeholder="Enter your email" required>
+               </div>
+               <div class="form-group">
+                   <label for="message">Message</label>
+                   <textarea class="form-control" id="message" rows="4" placeholder="Enter your message" required></textarea>
+               </div>
+               <button type="submit" class="btn btn-primary">Send Message</button>
+           </form>
+       </div>
+       <section class="py-5 text-center" style="background-color: black; color: white;">
+           <div class="container">
+               <h2 class="mb-4">Contact Us</h2>
+               <h4>Address</h4>
+               <p>Patna, Bihar, India</p>
+
+               <h4>Helpline</h4>
+               <p><a href="tel:+917631821416" class="text-decoration-none text-white">+91 7631821416</a></p>
+
+               <h4>Email</h4>
+               <p><a href="mailto:abhisingh11644@gmail.com" class="text-decoration-none text-white">abhisingh11644@gmail.com</a></p>
+           </div>
+       </section>
+   </div>
+  </div>
+
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  <script src="script.js"></script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=YOUR_API_KEY&callback=initMap"></script>
+</body>
+</html>
